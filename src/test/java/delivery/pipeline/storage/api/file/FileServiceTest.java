@@ -1,5 +1,6 @@
-package paasta.delivery.pipeline.storage.api.file;
+package delivery.pipeline.storage.api.file;
 
+import delivery.pipeline.storage.api.common.Constants;
 import org.apache.commons.io.IOUtils;
 import org.junit.*;
 import org.junit.runner.RunWith;
@@ -8,14 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit4.SpringRunner;
-import paasta.delivery.pipeline.storage.api.common.Constants;
 
 import java.io.File;
 import java.io.FileInputStream;
 
 /**
- * deliveryPipelineApi
- * paasta.delivery.pipeline.storage.api.file
+ * apdeliveryPipelineApi
+ * delivery.pipeline.storage.api.file
  *
  * @author REX
  * @version 1.0

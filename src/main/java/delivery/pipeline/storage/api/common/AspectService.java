@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.storage.api.common;
+package delivery.pipeline.storage.api.common;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -14,8 +14,8 @@ import java.util.Arrays;
 import java.util.Enumeration;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.storage.api.common
+ * apDeliveryPipelineApi
+ * delivery.pipeline.storage.api.common
  *
  * @author REX
  * @version 1.0
@@ -33,7 +33,7 @@ public class AspectService {
      *
      * @param joinPoint the join point
      */
-    @Before("execution(* paasta.delivery..*Service.*(..))")
+    @Before("execution(* delivery..*Service.*(..))")
     public void onBeforeLogServiceAccess(JoinPoint joinPoint) {
         LOGGER.warn("######## ON BEFORE SERVICE ACCESS :: {}", joinPoint);
     }
@@ -44,7 +44,7 @@ public class AspectService {
      *
      * @param joinPoint the join point
      */
-    @Before("execution(public * paasta.delivery..*Controller.*(..))")
+    @Before("execution(public * delivery..*Controller.*(..))")
     public void onBeforeLogControllerAccess(JoinPoint joinPoint) {
         LOGGER.warn("#### ON BEFORE CONTROLLER ACCESS :: {}", joinPoint);
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
