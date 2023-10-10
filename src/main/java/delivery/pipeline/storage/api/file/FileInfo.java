@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.storage.api.file;
+package delivery.pipeline.storage.api.file;
 
 /**
  * Created by hrjin on 2017-06-13.

@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.storage.api.config;
+package delivery.pipeline.storage.api.config;
 
 import org.javaswift.joss.client.factory.AccountConfig;
 import org.javaswift.joss.client.factory.AccountFactory;
@@ -33,7 +33,7 @@ public class SwiftOsConfig {
         config.setPassword(password);
         config.setAuthUrl(authUrl + "/tokens");
         config.setAuthenticationMethod(AuthenticationMethod.KEYSTONE_V3);
-        config.setPreferredRegion("paasta");
+        config.setPreferredRegion("kpaas");
 
         return config;
     }

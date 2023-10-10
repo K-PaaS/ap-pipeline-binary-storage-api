@@ -1,13 +1,13 @@
-package paasta.delivery.pipeline.storage.api.config;
+package delivery.pipeline.storage.api.config;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Configuration;
-import paasta.delivery.pipeline.storage.api.Application;
+import delivery.pipeline.storage.api.Application;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.storage.api.config
+ * apDeliveryPipelineApi
+ * delivery.pipeline.storage.api.config
  *
  * @author REX
  * @version 1.0

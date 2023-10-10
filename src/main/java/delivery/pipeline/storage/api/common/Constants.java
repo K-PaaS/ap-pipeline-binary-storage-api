@@ -1,8 +1,8 @@
-package paasta.delivery.pipeline.storage.api.common;
+package delivery.pipeline.storage.api.common;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.storage.api.common
+ * apDeliveryPipelineApi
+ * delivery.pipeline.storage.api.common
  *
  * @author REX
  * @version 1.0

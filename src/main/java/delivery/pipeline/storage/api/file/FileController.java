@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.storage.api.file;
+package delivery.pipeline.storage.api.file;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
